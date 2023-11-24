@@ -16,9 +16,9 @@ export default {
                     light: '#343434',
                 },
                 darkmode_elevated: {
-                    DEFAULT: '#3a3a3a',
-                    dark: '#2f2f2f',
-                    light: '#454545',
+                    DEFAULT: '#464646',
+                    dark: '#333333',
+                    light: '#5b5b5b',
                 },
                 lightmode: {
                     DEFAULT: '#f5f5f5',
@@ -26,9 +26,9 @@ export default {
                     light: '#ffffff',
                 },
                 lightmode_elevated: {
-                    DEFAULT: '#eaeaea',
-                    dark: '#d5d5d5',
-                    light: '#f0f0f0'
+                    DEFAULT: '#d7d7d7',
+                    dark: '#c5c5c5',
+                    light: '#e3e3e3'
                 },
             },
         },

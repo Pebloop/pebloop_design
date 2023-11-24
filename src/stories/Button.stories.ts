@@ -18,7 +18,14 @@ export const Primary: Story = {
   },
 };
 
-export const filled: Story = {
+export const Outlined: Story = {
+  args: {
+    variant: 'outlined',
+    label: 'test',
+  },
+};
+
+export const Filled: Story = {
   args: {
     variant: 'filled',
     label: 'test',

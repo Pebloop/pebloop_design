@@ -37,12 +37,20 @@
         @apply bg-primary-dark;
     }
 
+    .outlined {
+        @apply border border-primary text-primary;
+    }
+
+    .outlined:hover {
+        @apply bg-primary text-white;
+    }
+
     .filled {
-        @apply bg-lightmode_elevated dark:bg-darkmode_elevated;
+        @apply bg-lightmode_elevated dark:bg-darkmode_elevated text-black dark:text-white;
     }
 
     .filled:hover {
-        background-color: var(--color-background-light-elevated-hover);
+        @apply bg-lightmode_elevated-dark dark:bg-darkmode_elevated-light;
     }
 
 
