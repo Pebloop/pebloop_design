@@ -6,6 +6,8 @@
         switch (variant) {
             case 'primary':
                 return 'primary'
+            case 'filled':
+                return 'filled'
             case 'outlined':
                 return 'outlined'
             default:
@@ -15,22 +17,33 @@
 
 </script>
 
-<button class={getVariant()}>
+<button class="{getVariant()}">
     {label}
 </button>
 
 <style lang="postcss">
 
-    .primary {
-        background-color: var(--color-primary);
-        color: #fff;
+    button {
         padding: 0.25em 1em;
         border-radius: 99999px;
         min-height: 2em;
     }
 
-    .primary:hover {
-        background-color: #1565c0;
+    .primary {
+        @apply bg-primary text-white;
     }
+
+    .primary:hover {
+        @apply bg-primary-dark;
+    }
+
+    .filled {
+        @apply bg-lightmode_elevated dark:bg-darkmode_elevated;
+    }
+
+    .filled:hover {
+        background-color: var(--color-background-light-elevated-hover);
+    }
+
 
 </style>

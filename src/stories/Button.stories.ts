@@ -17,3 +17,10 @@ export const Primary: Story = {
     label: 'test',
   },
 };
+
+export const filled: Story = {
+  args: {
+    variant: 'filled',
+    label: 'test',
+  },
+};

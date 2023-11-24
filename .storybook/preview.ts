@@ -1,6 +1,5 @@
 import type { Preview } from "@storybook/svelte";
 import "../src/app.css";
-import "../src/variables.css";
 
 import { withThemeByClassName } from "@storybook/addon-themes";
 
