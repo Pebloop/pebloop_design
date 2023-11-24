@@ -31,3 +31,10 @@ export const Filled: Story = {
     label: 'test',
   },
 };
+
+export const Text: Story = {
+  args: {
+    variant: 'text',
+    label: 'test',
+  },
+};
