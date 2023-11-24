@@ -1,5 +1,6 @@
 import type { Preview } from "@storybook/svelte";
 import "../src/app.css";
+import "../src/variables.css";
 
 import { withThemeByClassName } from "@storybook/addon-themes";
 
@@ -17,7 +18,7 @@ const preview: Preview = {
   decorators: [withThemeByClassName({
       themes: {
           // nameOfTheme: 'classNameForTheme',
-          light: '',
+          light: 'light',
           dark: 'dark',
       },
       defaultTheme: 'light',
